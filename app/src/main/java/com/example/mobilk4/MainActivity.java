@@ -30,4 +30,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    public void scrollbutton(View view){
+        Intent intent = new Intent(this, ScrollViewActivity.class);
+        startActivity(intent);
+    }
+    public void recyclerbutton(View view){
+        Intent intent = new Intent(this, RecyclerViewActivity.class);
+        startActivity(intent);
+    }
+    public void spinnerbutton(View view){
+        Intent intent = new Intent(this, SpinnerActivity.class);
+        startActivity(intent);
+    }
 }

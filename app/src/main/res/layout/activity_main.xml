@@ -16,8 +16,27 @@
 
     <ListView
         android:id="@+id/listViewCategories"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="368dp"
+        android:layout_height="265dp"
         android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp"/>
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="scrollbutton"
+        android:id="@+id/scrollbutton"
+        android:text="перейти на scroll"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="recyclerbutton"
+        android:id="@+id/recyclerbutton"
+        android:text="перейти на recycler"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="spinnerbutton"
+        android:id="@+id/spinnerbutton"
+        android:text="перейти на spinner"/>
 </LinearLayout>
